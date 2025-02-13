@@ -1,2 +1,2 @@
-# asherfraz.github.io
-@asherfraz Blog
+#
+# Software Engineer Portfolio Asher Fraz Anjum - @asherfraz
