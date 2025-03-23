@@ -753,14 +753,14 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-    #container {
+    #contact_container {
         margin: 20px auto;
         width: 95%;
     }
 }
 
 @media screen and (max-width: 480px) {
-    h1 {
+    #contact_container>h1 {
         font-size: 26px;
     }
 
@@ -774,7 +774,7 @@ textarea {
 }
 
 @media screen and (max-width: 420px) {
-    h1 {
+    #contact_container>h1 {
         font-size: 18px;
     }
 
