@@ -117,6 +117,7 @@ body {
 
 #projects_section {
     background: url('./assets/projects-section.jpg') center/cover no-repeat;
+    height: 100%;
 }
 
 #experience_section {
@@ -352,6 +353,7 @@ marquee {
 
 /** Projects Section */
 
+
 .projects_grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -371,9 +373,15 @@ marquee {
     gap: 1rem;
     padding-bottom: 1rem;
     border-radius: 10px;
-    background-color: rgba(70, 113, 254, 0.5);
-    box-shadow: 0 0 20px #ccc;
+    background-color: rgba(49, 49, 49, 0.5);
+    box-shadow: 0 0 10px #292929;
+    transition: all 5s ease;
     overflow: hidden;
+}
+
+.project_card:hover {
+    transform: scale(1.2);
+    z-index: 20;
 }
 
 .project_img {
@@ -402,6 +410,7 @@ marquee {
 .project_link:hover {
     color: #4672fe;
 }
+
 
 
 /** Experience Section */
