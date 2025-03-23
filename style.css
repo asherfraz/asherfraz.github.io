@@ -22,9 +22,16 @@ body {
     border-bottom: 8px solid #4672fe;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .section_title {
         font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .section_title {
+        font-size: 2rem;
     }
 
 }
@@ -74,6 +81,24 @@ body {
     align-items: start;
     position: relative;
     padding: 3rem 3rem;
+}
+
+@media (max-width:768px) {
+
+    #hero_section,
+    #about_section,
+    #projects_section,
+    #experience_section,
+    #education_section,
+    #contact_section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+        padding: 2rem 1rem;
+    }
 }
 
 #hero_section {
@@ -355,7 +380,7 @@ marquee {
 
 
 .exp_card {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -367,6 +392,7 @@ marquee {
     border-radius: 10px;
     background-color: #22292f;
     box-shadow: 0 0 20px #ccc;
+    overflow: hidden;
 }
 
 .exp_title {
@@ -453,9 +479,10 @@ marquee {
 
 
 .edu_card {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: end;
@@ -465,6 +492,7 @@ marquee {
     border-radius: 10px;
     background-color: #22292f;
     box-shadow: 0 0 20px #ccc;
+    overflow: hidden;
 }
 
 .edu_card_rtl {
