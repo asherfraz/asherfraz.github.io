@@ -34,10 +34,10 @@ let sendMessage = document.querySelector("form");
 let formAction = (event) => {
     event.preventDefault();
 
-    let senderName = document.getElementById("name").value;
-    let senderEmail = document.getElementById("email").value;
-    let senderSubject = document.getElementById("subject").value;
-    let senderMessage = document.getElementById("message").value;
+    let senderName = document.getElementById("name_input").value;
+    let senderEmail = document.getElementById("email_input").value;
+    let senderSubject = document.getElementById("subject_input").value;
+    let senderMessage = document.getElementById("message_input").value;
     senderName = encodeURIComponent(senderName)
     senderEmail = encodeURIComponent(senderEmail)
     senderSubject = encodeURIComponent(senderSubject)

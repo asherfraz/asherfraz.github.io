@@ -66,7 +66,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
-    margin: 0 1rem;
+    margin: 2rem 1rem;
 }
 
 #hero_section,
@@ -380,7 +380,7 @@ marquee {
 }
 
 .project_card:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     z-index: 20;
 }
 
