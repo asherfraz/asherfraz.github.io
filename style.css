@@ -519,7 +519,9 @@ marquee {
 }
 
 @media (max-width:768px) {
-    #education_section {
+
+    #education_section,
+    #experience_section {
         height: 100%;
     }
 
@@ -625,7 +627,7 @@ marquee {
     background-image: linear-gradient(163deg, #64ffda 0%, #64ffda 100%);
     border-radius: 22px;
     transition: all 0.3s;
-    width: 36rem;
+    overflow: hidden;
 }
 
 .form-card1:hover {
