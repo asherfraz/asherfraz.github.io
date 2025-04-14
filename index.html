@@ -63,7 +63,21 @@
 
 <body>
 
-    <header></header>
+    <header class="cssanimation  moveFromTop">
+        <nav>
+            <div class="logo">
+                <img src="./assets/my-profile-img.png" alt="Logo" class="logo_img">
+                <h1 class="logo_text">asherfraz</h1>
+            </div>
+            <ul class="nav_links">
+                <li><a href="#about_section">About</a></li>
+                <li><a href="#projects_section">Projects</a></li>
+                <li><a href="#experience_section">Experience</a></li>
+                <li><a href="#education_section">Education</a></li>
+                <li><a href="#contact_section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
     <main>
@@ -71,9 +85,9 @@
             <div class="hero_content">
                 <!-- Profile Image -->
                 <img src="https://avatars.githubusercontent.com/u/37267032?v=4" alt="hero_image"
-                    class="hero_profile_image cssanimation 3deffect blurIn ">
+                    class="hero_profile_image cssanimation 3deffect " loading="lazy">
                 <!-- Profile Name -->
-                <h1 class="name cssanimation  moveFromLeft  ">Asher Fraz Anjum</h1>
+                <h1 class="name cssanimation swingInBottom">Asher Fraz Anjum</h1>
                 <!-- Profile Role -->
                 <div class="role cssanimation blurIn sequence">
                     &nbsp;
@@ -82,18 +96,20 @@
                 <div class="social-links cssanimation moveFromBottom sequence">
                     <a href="https://linkedin.com/in/asherfraz" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/social/linkedin-icon.png" alt="Linkedin Icon"
-                            class="social-links-images cssanimation hu__hu__">
-                        <br />Linkedin
+                            class="social-links-images cssanimation hu__hu__" loading="lazy">
+                        <br /><br />Linkedin
                     </a>
                     <a href="https://linktr.ee/asherfraz" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/social/linktree-icon.png" alt="Linkedin Icon"
-                            class="social-links-images cssanimation hu__hu__">
-                        <br />Linktree
+                            class="social-links-images cssanimation hu__hu__" loading="lazy">
+                        <br /><br />Linktree
                     </a>
                     <a href="https://github.com/asherfraz" target="_blank" rel="noopener noreferrer">
                         <img src="./assets/social/github-icon.png" alt="Linkedin Icon"
-                            class="social-links-images cssanimation hu__hu__">
-                        <br />GitHub
+                            class="social-links-images cssanimation hu__hu__" loading="lazy">
+                        <br />
+                        <br />
+                        GitHub
                     </a>
                 </div>
             </div>
@@ -467,6 +483,10 @@
 
     <!-- Typed.js cdn -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+        integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="index.js"></script>
 
 </body>

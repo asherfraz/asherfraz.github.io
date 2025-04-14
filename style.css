@@ -15,6 +15,73 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+/* Header */
+header {
+    position: absolute;
+    top: 10px;
+    left: 28%;
+    z-index: 500;
+    /* background: #22292f; */
+    background: hsla(0, 0%, 0%, 0.322);
+    margin: auto;
+    border-radius: 10px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        display: none;
+    }
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo_img {
+    width: 2.5rem;
+}
+
+
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav_links>li {
+    list-style: none;
+    padding: 0 0.5rem;
+
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_links>li:hover {
+    border-radius: 20px;
+    background-color: #22292f;
+    /* font-family: 'Zilla Slab Highlight', 'Wallpoet', system-ui; */
+    padding: 0.7rem 0.5rem;
+}
+
+
+/* Navbar end */
+
 .section_title {
     font-family: 'Zilla Slab Highlight', 'Wallpoet', system-ui;
     font-size: 4rem;
@@ -149,7 +216,7 @@ body {
 
 .name {
     font-family: 'Rubik Glitch', 'Wallpoet', system-ui;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     text-align: center;
     color: white;
@@ -227,7 +294,8 @@ body {
     text-align: center;
 }
 
-li {
+.left_details>ul>li,
+.right_details>ul>li {
     list-style: none;
     display: flex;
     justify-content: flex-start;
