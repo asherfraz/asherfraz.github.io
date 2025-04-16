@@ -45,6 +45,13 @@ nav {
     gap: 2.5rem;
 }
 
+@media (max-width: 1100px) {
+    nav {
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -215,13 +222,19 @@ nav {
 }
 
 .name {
-    font-family: 'Rubik Glitch', 'Wallpoet', system-ui;
+    font-family: "Uncial Antiqua", 'Wallpoet', system-ui;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 800;
     text-align: center;
     color: white;
     padding: 0 1.5rem;
     text-shadow: 4px 3px 11px rgba(255, 255, 255, 0.47), 7px 6px 11px rgba(224, 0, 0, 0.47);
+    transition: all 0.5s linear;
+}
+
+.name:hover {
+    text-decoration: underline;
+    text-decoration-color: #4672fe;
 }
 
 .role {
