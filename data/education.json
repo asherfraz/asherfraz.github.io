@@ -1,0 +1,20 @@
+[
+    {
+        "order": "1",
+        "level": "Bachelor of Science in Software Engineering",
+        "institution": "Shaheed Zulfiqar Ali Bhutto Institute of Science & Technology - H-8/4",
+        "duration": "Sep. 2020 – July 2024"
+    },
+    {
+        "order": "2",
+        "level": "Intermediate in Computer Science (ICS)",
+        "institution": "Islamabad Model College for Boys - H-9",
+        "duration": "2018 – 2020"
+    },
+    {
+        "order": "3",
+        "level": "Matriculation",
+        "institution": "Islamabad Model School for Boys - I-8/4",
+        "duration": "2018"
+    }
+]

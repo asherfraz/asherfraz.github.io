@@ -1,0 +1,114 @@
+[
+    {
+        "orderDate": "2025-06-01",
+        "title": "Mega Links Enterprises",
+        "description": "A Business Website for Mega Links Enterprises, a company that general order supplier in Pakistan.",
+        "date": "June 2025",
+        "image": "/portfolio/web-6.png",
+        "link": "https://megalinksenterprises.netlify.app/",
+        "source": "",
+        "technologies": [
+            "React.js",
+            "TailwindCSS",
+            "Redux",
+            "EmailJs",
+            "Netlify"
+        ]
+    },
+    {
+        "orderDate": "2025-05-25",
+        "title": "My-Bitlinks",
+        "description": "Simple URL Shortener built with Next.js and MongoDB.",
+        "date": "May 2025",
+        "image": "/portfolio/web-5.png",
+        "link": "",
+        "source": "https://github.com/asherfraz/my-bitlinks",
+        "technologies": [
+            "Next.js",
+            "TailwindCSS",
+            "MongoDB"
+        ]
+    },
+    {
+        "orderDate": "2025-05-13",
+        "title": "Mailculator",
+        "description": "Calculator based web app that allows users to perform calculations and send results via email and whatsapp.",
+        "date": "May 2025",
+        "image": "/portfolio/web-4.png",
+        "link": "https://mailculator.vercel.app/",
+        "source": "https://github.com/asherfraz/mailculator",
+        "technologies": [
+            "React.js",
+            "TailwindCSS",
+            "Redux",
+            "EmailJs",
+            "Vercel"
+        ]
+    },
+    {
+        "orderDate": "2025-04-05",
+        "title": "React Paste App",
+        "description": "Simple Paste App built with React.js, Redux and Local Storage.",
+        "date": "April 2025",
+        "image": "/portfolio/web-3.png",
+        "link": "https://pasteapp-tau.vercel.app/",
+        "source": "https://github.com/asherfraz/pasteapp",
+        "technologies": [
+            "React.js",
+            "TailwindCSS",
+            "Redux",
+            "Local Storage",
+            "Vercel"
+        ]
+    },
+    {
+        "orderDate": "2025-01-10",
+        "title": "Website Marketing Masters Agency",
+        "description": "Designed, developed and sold web app to Online Services provider agency.",
+        "date": "January 2025",
+        "image": "/portfolio/web-2.png",
+        "link": "https://websitemarketingmasters.co.uk/",
+        "source": "",
+        "technologies": [
+            "Next.js",
+            "Typescript",
+            "TailwindCSS",
+            "React.js",
+            "Vercel"
+        ]
+    },
+    {
+        "orderDate": "2024-07-31",
+        "title": "FYP - Sentimental Analysis on Smartphones Youtube Reviews",
+        "description": "Mobile e-commerce web app built with MERN Stack with Python sentimental analysis model.",
+        "date": "July 2024 - July 2025",
+        "image": "/portfolio/web-1.jpeg",
+        "link": "",
+        "source": "",
+        "technologies": [
+            "React.js",
+            "TailwindCSS",
+            "Redux",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Python",
+            "Flask",
+            "Google Cloud Platform"
+        ]
+    },
+    {
+        "orderDate": "2023-05-09",
+        "title": "Tic Tac Toe - Android Game",
+        "description": "Simple Android game made with XML & Java.",
+        "date": "May 2023",
+        "image": "/portfolio/app-1.png",
+        "link": "",
+        "source": "https://github.com/asherfraz/TicTacToe-Android-App",
+        "technologies": [
+            "Android Studio",
+            "XML",
+            "Java"
+        ]
+    }
+]
