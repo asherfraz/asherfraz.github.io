@@ -1,14 +1,22 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { Twitter, Linkedin, Github, LinkIcon } from "lucide-react";
 import { CondimentRegular } from "@/app/fonts/fonts";
 import bio from "@/data/bio.json";
+import { motion } from "framer-motion";
 
 export default function Footer() {
 	const social = bio.social;
 
 	return (
-		<footer className="flex flex-col justify-center items-center py-10 text-white">
+		<motion.footer
+			initial={{ opacity: 0, y: 20 }}
+			whileInView={{ opacity: 1, y: 0 }}
+			viewport={{ once: false, amount: 0.3 }}
+			transition={{ duration: 0.5, ease: "easeInOut" }}
+			className="flex flex-col justify-center items-center py-10 text-white"
+		>
 			<Link
 				href="/"
 				className="flex items-center space-x-2 text-xl font-bold
@@ -70,6 +78,6 @@ export default function Footer() {
 					Asher Fraz
 				</Link>
 			</p> */}
-		</footer>
+		</motion.footer>
 	);
 }

@@ -26,7 +26,7 @@ export default function CustomCursor() {
 				translateX: x,
 				translateY: y,
 			}}
-			className="fixed top-0 left-5 z-999  rounded-full w-8 h-8 bg-primary/30  flex items-center justify-center  transition-all duration-150 ease-in-out"
+			className="fixed top-0 left-5 z-999  rounded-full w-8 h-8 bg-primary/30  flex items-center justify-center  transition-all duration-150 ease-in-out animate-pulse shadow-lg drop-shadow-2xl "
 			initial={{ opacity: 0 }}
 			animate={{ opacity: [0.5, 0.6, 0.7, 0.8, 0.9, 1] }}
 			whileHover={{
