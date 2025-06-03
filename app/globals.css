@@ -3,7 +3,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
+body {
+  /* cursor: default; */
+}
 
 @theme inline {
   --color-background: var(--background);

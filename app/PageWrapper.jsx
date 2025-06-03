@@ -3,11 +3,13 @@ import { Navbar } from "@/components/Navbar";
 import React from "react";
 import { ReactLenis } from "lenis/react";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/CustomCursor";
 
 export default function PageWrapper({ children }) {
 	return (
 		<ReactLenis root>
 			<div className="flex flex-col min-h-screen bg-black/50 text-white ">
+				<CustomCursor />
 				{/* My Code */}
 				{/* <header className="flex sticky justify-between items-center h-16 ">
 				<Navbar />
