@@ -63,7 +63,7 @@ export default function TechStack() {
 												priority
 												width={480}
 												height={320}
-												className="w-10 h-10 rounded-full bg-transparent object-cover object-center mx-auto mb-2"
+												className="w-10 h-10 rounded-xl bg-transparent object-cover object-center mx-auto mb-2"
 											/>
 										</div>
 									</TooltipContent>

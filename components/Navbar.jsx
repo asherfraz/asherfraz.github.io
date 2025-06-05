@@ -43,7 +43,7 @@ export function Navbar() {
 			<TooltipProvider>
 				<Dock
 					direction="middle"
-					className="w-full max-w-sm md:max-w-2xl  flex items-center justify-evenly "
+					className="w-full max-w-sm md:max-w-2xl p-0 sm:p-2 border-none sm:border-solid flex items-center justify-between sm:justify-evenly"
 				>
 					{DATA.navbar.map((item) => (
 						<DockIcon key={item.label}>

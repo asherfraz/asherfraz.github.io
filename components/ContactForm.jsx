@@ -83,9 +83,9 @@ ${data.message}
 					onSubmit={handleSubmit(onSubmit)}
 					className="lg:w-1/2 md:w-2/3 mx-auto"
 				>
-					<div className="flex flex-wrap -m-2">
+					<div className="flex flex-col items-center sm:flex-row sm:flex-wrap -m-2">
 						{/* Name Field */}
-						<div className="p-2 w-1/2">
+						<div className="p-2 w-full sm:w-1/2">
 							<div className="relative">
 								<label
 									htmlFor="name"
@@ -119,7 +119,7 @@ ${data.message}
 						</div>
 
 						{/* Email Field */}
-						<div className="p-2 w-1/2">
+						<div className="p-2  w-full sm:w-1/2">
 							<div className="relative">
 								<label
 									htmlFor="email"

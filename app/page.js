@@ -4,6 +4,7 @@ import Hero2 from "@/components/Hero2";
 import { Separator } from "@/components/ui/separator";
 import { CondimentRegular } from "@/app/fonts/fonts";
 import ExperienceNEducationSection from "@/components/ExperienceNEducationSection";
+import Devquote from "@/components/Devquote";
 
 export const metadata = {
 	title: "Asher Fraz Anjum • Software Engineer | Full Stack Developer",
@@ -26,8 +27,11 @@ export default function Home() {
 			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
 			<ExperienceNEducationSection />
 			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
+			<Devquote />
+			{/* <Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" /> */}
 			{/* <SkillsSection /> */}
 			{/* <ContactSection /> */}
+
 		</section>
 	);
 }
