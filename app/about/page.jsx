@@ -57,7 +57,7 @@ export const metadata = {
 export default function About() {
 	return (
 		<section id="Home-page">
-			<h2
+			{/* <h2
 				className={`${CondimentRegular.className} text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-white font-bold my-8`}
 			>
 				Asher fraz Anjum.
@@ -67,8 +67,8 @@ export default function About() {
 				scalable, modern web apps with clean architecture and focus on user
 				experience.
 			</p>
+			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" /> */}
 
-			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
 			<Hero />
 			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
 		</section>

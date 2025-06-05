@@ -157,11 +157,7 @@ export default function Project() {
 									<div className="mt-2 flex items-center justify-center pt-2 px-2 pb-2">
 										<div className="flex flex-row flex-wrap items-start gap-1">
 											{project.link !== "" && (
-												<Link
-													target="_blank"
-													href={project.link}
-													rel="noopener noreferrer"
-												>
+												<Link target="_blank" href={project.link}>
 													<div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[10px]">
 														<svg
 															xmlns="http://www.w3.org/2000/svg"
@@ -184,11 +180,7 @@ export default function Project() {
 												</Link>
 											)}
 											{project.source !== "" && (
-												<Link
-													target="_blank"
-													href={project.source}
-													rel="noopener noreferrer"
-												>
+												<Link target="_blank" href={project.source}>
 													<div className="items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground shadow hover:bg-primary/80 flex gap-2 px-2 py-1 text-[10px]">
 														<svg
 															viewBox="0 0 438.549 438.549"

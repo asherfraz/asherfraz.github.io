@@ -91,7 +91,7 @@ const Hero2 = () => {
 									</span>
 								</ShinyButton>
 							</Link>
-							<Link href={bio.fiverr} target="_blank" rel="noopener noreferrer">
+							<Link href={bio.fiverr} target="_blank">
 								<ShinyButton className="shadow-2xl">
 									<span className="text-white hover:text-primary font-medium leading-none tracking-tight">
 										Let&apos;s Build Together &gt;
