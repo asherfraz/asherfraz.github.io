@@ -1,5 +1,4 @@
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
-import React from "react";
 import { ReactLenis } from "lenis/react";
 import Footer from "@/components/Footer";
 import CustomCursor from "@/components/CustomCursor";
