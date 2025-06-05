@@ -1,7 +1,8 @@
 import React from "react";
 import { CondimentRegular } from "@/app/fonts/fonts";
-import Hero from "@/components/Hero";
 import { Separator } from "@/components/ui/separator";
+import Hero from "@/components/Hero";
+import TechStack from "@/components/TechStack";
 
 export const metadata = {
 	title: "About Asher Fraz Anjum | Full Stack Software Engineer",
@@ -56,7 +57,7 @@ export const metadata = {
 
 export default function About() {
 	return (
-		<section id="Home-page">
+		<section id="about-page">
 			{/* <h2
 				className={`${CondimentRegular.className} text-2xl sm:text-4xl md:text-6xl lg:text-8xl text-white font-bold my-8`}
 			>
@@ -70,6 +71,8 @@ export default function About() {
 			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" /> */}
 
 			<Hero />
+			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
+			<TechStack />
 			<Separator className="my-8 w-1/2 mx-auto bg-primary rounded-lg" />
 		</section>
 	);

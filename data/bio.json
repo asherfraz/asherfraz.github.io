@@ -16,5 +16,107 @@
         "github": "https://github.com/asherfraz"
     },
     "avatar": "https://avatars.githubusercontent.com/u/37267032?v=4",
-    "bio": "Fresh Software Engineer from Pakistan with a passion for turning ideas into clean, scalable web experiences. With a strong foundation in programming and software development, Asher has worked on various projects that showcase his skills in creating efficient and user-friendly applications. He is committed to continuous learning and staying updated with the latest technologies in the software industry."
+    "bio": "Fresh Software Engineer from Pakistan with a passion for turning ideas into clean, scalable web experiences. With a strong foundation in programming and software development, Asher has worked on various projects that showcase his skills in creating efficient and user-friendly applications. He is committed to continuous learning and staying updated with the latest technologies in the software industry.",
+    "techstack": [
+        {
+            "name": "HTML5",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            "color": "#f16529"
+        },
+        {
+            "name": "CSS3",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            "color": "#33a9dc"
+        },
+        {
+            "name": "TailwindCSS",
+            "icon": "https://cdn.simpleicons.org/tailwindcss/06B6D4",
+            "color": "#06B6D4"
+        },
+        {
+            "name": "JavaScript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            "color": "#f7df1e99"
+        },
+        {
+            "name": "React",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+            "color": "#61dafb99"
+        },
+        {
+            "name": "Next.js",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+            "color": "#000000"
+        },
+        {
+            "name": "Node.js",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            "color": "#3C873A"
+        },
+        {
+            "name": "Express",
+            "icon": "https://skillicons.dev/icons?i=express",
+            "color": "#000000"
+        },
+        {
+            "name": "MongoDB",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+            "color": "#47A248"
+        },
+        {
+            "name": "C++",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+            "color": "#00599C"
+        },
+        {
+            "name": "Python",
+            "icon": "https://skillicons.dev/icons?i=py",
+            "color": "#3776AB"
+        },
+        {
+            "name": "Java",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            "color": "#007396"
+        },
+        {
+            "name": "Android",
+            "icon": "https://cdn.simpleicons.org/android/3DDC84",
+            "color": "#3DDC8499"
+        },
+        {
+            "name": "Android Studio",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg",
+            "color": "#3DDC8499"
+        },
+        {
+            "name": "Kotlin",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+            "color": "#7F52FF"
+        },
+        {
+            "name": "VS Code",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+            "color": "#007ACC"
+        },
+        {
+            "name": "Git",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+            "color": "#F05032"
+        },
+        {
+            "name": "GitHub",
+            "icon": "https://skillicons.dev/icons?i=github",
+            "color": "#181717"
+        },
+        {
+            "name": "Vercel",
+            "icon": "https://skillicons.dev/icons?i=vercel",
+            "color": "#000000"
+        },
+        {
+            "name": "Netlify",
+            "icon": "https://skillicons.dev/icons?i=netlify",
+            "color": "#00C7B7"
+        }
+    ]
 }
