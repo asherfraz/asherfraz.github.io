@@ -57,10 +57,9 @@ const Hero = () => {
 		<section id="hero" className="text-gray-400 body-font w-full h-fit">
 			<div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
 				{/* Left: Intro Text */}
-				<div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-					<h1 className="title-font sm:text-4xl text-3xl mb-4 font-semibold text-white/70">
-						<span className="text-white">Engineering the web,</span>{" "}
-						<span className=" text-white">one idea at a time.</span>
+				<div className="lg:flex-grow w-full md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+					<h1 className=" w-full sm:text-4xl text-3xl mb-4 font-semibold text-white/70">
+						Engineering the web, one idea at a time.
 					</h1>
 					<p className="mb-8 leading-relaxed">{bio.bio}</p>
 					<div className="flex flex-wrap grow w-md items-start justify-center gap-4">

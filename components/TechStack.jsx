@@ -36,7 +36,7 @@ export default function TechStack() {
 				{techRows.map((row, rowIndex) => (
 					<div
 						key={rowIndex}
-						className="grid grid-flow-col auto-cols-max justify-center gap-3 max-w-[920px] mx-auto mb-4"
+						className="grid grid-cols-3 md:grid-flow-col auto-cols-max justify-center items-center gap-3 max-w-[920px] mx-auto mb-4"
 					>
 						{row.map((tech, index) => (
 							<TooltipProvider
@@ -70,6 +70,7 @@ export default function TechStack() {
 								</Tooltip>
 							</TooltipProvider>
 						))}
+						<div className="space-y-4" />
 					</div>
 				))}
 			</div>
