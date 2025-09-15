@@ -2,6 +2,15 @@
     {
         "order": "0",
         "title": "Software Engineer Internee",
+        "company": "Decimal Solution",
+        "location": "Islamabad, Pakistan",
+        "startDate": "July 2025",
+        "endDate": "Ongoing",
+        "description": "Working as a Full Stack Developer and building optimized solutions."
+    },
+    {
+        "order": "1",
+        "title": "Software Engineer Internee",
         "company": "NADRA Headquarters",
         "location": "Islamabad, Pakistan",
         "startDate": "June 2023",
