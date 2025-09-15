@@ -1,5 +1,24 @@
 [
     {
+        "orderDate": "2025-09-01",
+        "title": "AshStore - Clothing Ecommerce Web App",
+        "description": "A full-stack ecommerce platform for clothing built with Next.js 15 and TypeScript. Features include user authentication, product and order management, real-time chat, and email notifications.",
+        "date": "Ongoing",
+        "image": "/portfolio/web-6.png",
+        "link": "https://ashstore-ecom.vercel.app/",
+        "source": "",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "TailwindCSS",
+            "Redux",
+            "Nodejs",
+            "Expressjs",
+            "Nodemailer",
+            "Vercel"
+        ]
+    },
+    {
         "orderDate": "2025-06-01",
         "title": "Mega Links Enterprises",
         "description": "A Business Website for Mega Links Enterprises, a company that general order supplier in Pakistan.",
