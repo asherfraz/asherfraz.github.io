@@ -1,7 +1,7 @@
 [
     {
         "orderDate": "2025-09-01",
-        "title": "AshStore - Clothing Ecommerce Web App",
+        "title": "AshStore - Clothing Ecommerce",
         "description": "A full-stack ecommerce platform for clothing built with Next.js 15 and TypeScript. Features include user authentication, product and order management, real-time chat, and email notifications.",
         "date": "Ongoing",
         "image": "/portfolio/web-7-ashstore.png",
