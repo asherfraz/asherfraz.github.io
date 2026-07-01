@@ -16,17 +16,7 @@
         "github": "https://github.com/asherfraz"
     },
     "avatar": "https://avatars.githubusercontent.com/u/37267032?v=4",
-    "bio": `
-    I'm a Software Engineer from Pakistan building full-stack web applications with the MERN stack — React.js, Node.js, Express.js, and MongoDB/MySQL — with a focus on clean, scalable, production-ready code.
-
-I currently work at KIPS Education System, where I build and maintain production websites and solve real-world technical problems at scale.
-
-Right now, I'm building an Agentic RAG Chat Application — a chatbot that goes beyond simple Q&A, using LangChain to orchestrate multi-step reasoning and tool-calling over custom knowledge bases. It's built with Next.js and Node.js/TypeScript on the backend, Qdrant for vector search, and MySQL for structured data. The MVP is complete and working end-to-end.
-
-My project work also spans e-commerce (Affiliate Marketing module at Decimal Solution), Android development with real-time database integration (NADRA), and a sentiment-analysis platform for smartphone reviews using Python and the DeBERTa model.
-
-I'm committed to continuous learning and staying current with emerging web and AI technologies — and I actively use AI-assisted workflows to move faster without cutting corners.
-    `,
+    "bio": "I'm a Software Engineer from Pakistan building full-stack web applications with the MERN stack — React.js, Node.js, Express.js, and MongoDB/MySQL — with a focus on clean, scalable, production-ready code.\n\nI currently work at KIPS Education System, where I build and maintain production websites and solve real-world technical problems at scale.\n\nRight now, I'm building an Agentic RAG Chat Application — a chatbot that goes beyond simple Q&A, using LangChain to orchestrate multi-step reasoning and tool-calling over custom knowledge bases. It's built with Next.js and Node.js/TypeScript on the backend, Qdrant for vector search, and MySQL for structured data. The MVP is complete and working end-to-end.\n\nMy project work also spans e-commerce (Affiliate Marketing module at Decimal Solution), Android development with real-time database integration (NADRA), and a sentiment-analysis platform for smartphone reviews using Python and the DeBERTa model.\n\nI'm committed to continuous learning and staying current with emerging web and AI technologies — and I actively use AI-assisted workflows to move faster without cutting corners.",
     "techstack": [
         {
             "name": "HTML5",
@@ -49,6 +39,11 @@ I'm committed to continuous learning and staying current with emerging web and A
             "color": "#f7df1e99"
         },
         {
+            "name": "TypeScript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            "color": "#3178C6"
+        },
+        {
             "name": "React",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "color": "#61dafb99"
@@ -69,9 +64,24 @@ I'm committed to continuous learning and staying current with emerging web and A
             "color": "#000000"
         },
         {
+            "name": "LangChain",
+            "icon": "https://cdn.simpleicons.org/langchain/1C3C3C",
+            "color": "#1C3C3C"
+        },
+        {
+            "name": "Qdrant",
+            "icon": "https://cdn.simpleicons.org/qdrant/DC244C",
+            "color": "#DC244C"
+        },
+        {
             "name": "MongoDB",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
             "color": "#47A248"
+        },
+        {
+            "name": "MySQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "color": "#4479A1"
         },
         {
             "name": "C++",
@@ -117,6 +127,16 @@ I'm committed to continuous learning and staying current with emerging web and A
             "name": "GitHub",
             "icon": "https://skillicons.dev/icons?i=github",
             "color": "#181717"
+        },
+        {
+            "name": "Docker",
+            "icon": "https://skillicons.dev/icons?i=docker",
+            "color": "#2496ED"
+        },
+        {
+            "name": "Postman",
+            "icon": "https://skillicons.dev/icons?i=postman",
+            "color": "#FF6C37"
         },
         {
             "name": "Vercel",
