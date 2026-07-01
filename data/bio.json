@@ -16,7 +16,17 @@
         "github": "https://github.com/asherfraz"
     },
     "avatar": "https://avatars.githubusercontent.com/u/37267032?v=4",
-    "bio": "Fresh Software Engineer from Pakistan with a passion for turning ideas into clean, scalable web experiences. With a strong foundation in programming and software development, Asher has worked on various projects that showcase his skills in creating efficient and user-friendly applications. He is committed to continuous learning and staying updated with the latest technologies in the software industry.",
+    "bio": `
+    I'm a Software Engineer from Pakistan building full-stack web applications with the MERN stack — React.js, Node.js, Express.js, and MongoDB/MySQL — with a focus on clean, scalable, production-ready code.
+
+I currently work at KIPS Education System, where I build and maintain production websites and solve real-world technical problems at scale.
+
+Right now, I'm building an Agentic RAG Chat Application — a chatbot that goes beyond simple Q&A, using LangChain to orchestrate multi-step reasoning and tool-calling over custom knowledge bases. It's built with Next.js and Node.js/TypeScript on the backend, Qdrant for vector search, and MySQL for structured data. The MVP is complete and working end-to-end.
+
+My project work also spans e-commerce (Affiliate Marketing module at Decimal Solution), Android development with real-time database integration (NADRA), and a sentiment-analysis platform for smartphone reviews using Python and the DeBERTa model.
+
+I'm committed to continuous learning and staying current with emerging web and AI technologies — and I actively use AI-assisted workflows to move faster without cutting corners.
+    `,
     "techstack": [
         {
             "name": "HTML5",
