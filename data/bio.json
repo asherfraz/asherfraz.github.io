@@ -3,20 +3,20 @@
     "occupation": "Software Engineer",
     "location": "Pakistan PK",
     "email": "asherfraz@gmail.com",
-    "resume": "https://drive.google.com/file/d/1TSo5SbWA-JCep3yykAE5-vyEAEWzibZQ/view?usp=sharing",
-    "website": "https://asherfraz.com",
+    "resume": "https://drive.google.com/file/d/16U5lRMjT9ynHlTP4nuYhoyERSWjOaX4u/view?usp=sharing",
+    "website": "https://asherfraz.dev",
     "fiverr": "https://www.fiverr.com/asherfraz500?public_mode=true",
     "freelancer": "",
     "upwork": "https://www.upwork.com/freelancers/~012b5a7cc76e567f0a?mp_source=share",
     "social": {
-        "portfolio": "https://asherfraz.com",
+        "portfolio": "https://asherfraz.dev",
         "twitter": "https://x.com/AsherFraz",
         "linktree": "https://linktr.ee/asherfraz",
         "linkedin": "https://pk.linkedin.com/in/asherfraz",
         "github": "https://github.com/asherfraz"
     },
     "avatar": "https://avatars.githubusercontent.com/u/37267032?v=4",
-    "bio": "Fresh Software Engineer from Pakistan with a passion for turning ideas into clean, scalable web experiences. With a strong foundation in programming and software development, Asher has worked on various projects that showcase his skills in creating efficient and user-friendly applications. He is committed to continuous learning and staying updated with the latest technologies in the software industry.",
+    "bio": "I'm a Software Engineer from Pakistan building full-stack web applications with the MERN stack — React.js, Node.js, Express.js, and MongoDB/MySQL — with a focus on clean, scalable, production-ready code.\n\nI currently work at KIPS Education System, where I build and maintain production websites and solve real-world technical problems at scale.\n\nRight now, I'm building an Agentic RAG Chat Application — a chatbot that goes beyond simple Q&A, using LangChain to orchestrate multi-step reasoning and tool-calling over custom knowledge bases. It's built with Next.js and Node.js/TypeScript on the backend, Qdrant for vector search, and MySQL for structured data. The MVP is complete and working end-to-end.\n\nMy project work also spans e-commerce (Affiliate Marketing module at Decimal Solution), Android development with real-time database integration (NADRA), and a sentiment-analysis platform for smartphone reviews using Python and the DeBERTa model.\n\nI'm committed to continuous learning and staying current with emerging web and AI technologies — and I actively use AI-assisted workflows to move faster without cutting corners.",
     "techstack": [
         {
             "name": "HTML5",
@@ -39,6 +39,11 @@
             "color": "#f7df1e99"
         },
         {
+            "name": "TypeScript",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            "color": "#3178C6"
+        },
+        {
             "name": "React",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "color": "#61dafb99"
@@ -59,9 +64,24 @@
             "color": "#000000"
         },
         {
+            "name": "LangChain",
+            "icon": "https://cdn.simpleicons.org/langchain/1C3C3C",
+            "color": "#1C3C3C"
+        },
+        {
+            "name": "Qdrant",
+            "icon": "https://cdn.simpleicons.org/qdrant/DC244C",
+            "color": "#DC244C"
+        },
+        {
             "name": "MongoDB",
             "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
             "color": "#47A248"
+        },
+        {
+            "name": "MySQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "color": "#4479A1"
         },
         {
             "name": "C++",
@@ -107,6 +127,16 @@
             "name": "GitHub",
             "icon": "https://skillicons.dev/icons?i=github",
             "color": "#181717"
+        },
+        {
+            "name": "Docker",
+            "icon": "https://skillicons.dev/icons?i=docker",
+            "color": "#2496ED"
+        },
+        {
+            "name": "Postman",
+            "icon": "https://skillicons.dev/icons?i=postman",
+            "color": "#FF6C37"
         },
         {
             "name": "Vercel",

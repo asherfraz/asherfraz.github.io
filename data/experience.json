@@ -1,15 +1,24 @@
 [
     {
         "order": "0",
+        "title": "Junior Software Developer",
+        "company": "KIPS Education System ",
+        "location": "Lahore, Pakistan",
+        "startDate": "Nov 2025",
+        "endDate": "Present",
+        "description": ""
+    },
+    {
+        "order": "1",
         "title": "Full Stack Developer",
         "company": "Decimal Solution",
         "location": "Islamabad, Pakistan",
         "startDate": "July 2025",
-        "endDate": "Ongoing",
+        "endDate": "Oct 2025",
         "description": "Working as a Full Stack Developer and building optimized solutions."
     },
     {
-        "order": "1",
+        "order": "2",
         "title": "Software Engineer Internee",
         "company": "NADRA Headquarters",
         "location": "Islamabad, Pakistan",
